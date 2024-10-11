@@ -12,8 +12,8 @@ function MainPage() {
       userId={12345}
       level={5}
       countOfReferrals={10}
-      currentLevel="lvl 3"
-      nextLevel="lvl 4"
+      currentLevel={'lvl 3'} 
+      nextLevel={'lvl 4'}  
     />
     
       <Body />
