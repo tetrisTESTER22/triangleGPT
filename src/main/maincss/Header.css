@@ -1,13 +1,13 @@
 .header-container {
     text-align: left;
     font-family: monospace;
-    border-radius: 10px; 
+    border-radius: 25px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
-    background-color: #bdbcbc;
+    background-color: #eaeaea;
     margin-top: 15px;
     width: 80%; /* Ограничиваем ширину */
-    max-width: 600px; /* Максимальная ширина */
+    max-width: 500px; /* Максимальная ширина */
   }
   
   .header-border {
@@ -17,7 +17,7 @@
   
   .progress-bar-container {
     width: 100%;
-    background-color: #e0e0e0;
+    background-color: #baeca3;
     border-radius: 5px;
     overflow: hidden; /* Добавлено для обрезания прогресс-бара */
   }
@@ -25,7 +25,7 @@
   .progress-bar {
     width: 70%; /* Здесь можно динамически менять ширину */
     height: 20px;
-    background-color: #76c7c0;
+    background-color: #717beb;
     border-radius: 5px;
   }
   
@@ -41,4 +41,15 @@
 
   .level-container {
     padding-top: 10px;
+  }
+
+  .userIconImage {
+    height: 20px;
+    width: 25px;
+    padding-right: 10px;
+  }
+
+  .balanceSpan {
+    height: 20px;
+    margin-left: auto;
   }
